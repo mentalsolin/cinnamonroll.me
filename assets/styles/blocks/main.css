@@ -1,0 +1,40 @@
+.page {
+    font-family: 'Roboto Serif', serif;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+}
+
+.page__body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container__inner {
+    padding: 30px;
+}
+
+
+/* Links */
+
+.link {
+    color: var(--text-primary);
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.links__item {
+    display: inline-block;
+}
+
+.links__item--link {
+    margin-right: 15px;
+}

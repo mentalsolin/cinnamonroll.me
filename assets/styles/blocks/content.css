@@ -1,0 +1,8 @@
+.content {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.content ol li::marker, .content ul li::marker {
+    color: var(--text-secondary);
+}

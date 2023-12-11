@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-primary: #ebe3d5;
+        --text-primary: #212121;
+        --text-secondary: #858585;
+        --logo-filter: invert(0%) sepia(67%) saturate(1718%) hue-rotate(107deg) brightness(66%) contrast(74%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #1f1f1f;
+        --text-primary: #adadad;
+        --text-secondary: #4e4e4e;
+        --logo-filter: invert(74%) sepia(3%) saturate(26%) hue-rotate(314deg) brightness(95%) contrast(84%);
+    }
+}
