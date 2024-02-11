@@ -1,8 +1,40 @@
-/* Blocks */
-@import url(./blocks/main.css);
-@import url(./blocks/content.css);
-@import url(./blocks/footer.css);
-@import url(./blocks/header.css);
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-primary: #fff;
+        --text-secondary: #c1c1c1;
+    }
+}
 
-/* Colors */
-@import url(./colors.css);
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #000;
+        --text-secondary: #2c2c2c;
+    }
+}
+
+a {
+    color: var(--text-secondary);
+}
+
+
+body {
+    background-color: var(--bg-primary);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -78px;
+}
